@@ -1,0 +1,149 @@
+{
+  "app": { "title": "Quản Lý Tồn Kho" },
+  "nav": {
+    "dashboard": "Tổng quan",
+    "products": "Sản phẩm",
+    "transactions": "Nhập / Xuất kho",
+    "reports": "Báo cáo"
+  },
+  "layout": {
+    "lanHint": "Máy khác trong cùng mạng LAN có thể truy cập ứng dụng này qua địa chỉ IP của máy này.",
+    "language": "Ngôn ngữ"
+  },
+  "common": {
+    "cancel": "Hủy",
+    "save": "Lưu",
+    "saving": "Đang lưu...",
+    "edit": "Sửa",
+    "delete": "Xóa",
+    "confirm": "Xác nhận",
+    "loading": "Đang tải..."
+  },
+  "txType": {
+    "in": "Nhập",
+    "out": "Xuất"
+  },
+  "dashboard": {
+    "title": "Tổng quan",
+    "subtitle": "Tình hình tồn kho và hoạt động hôm nay",
+    "loading": "Đang tải dữ liệu...",
+    "stats": {
+      "products": "Sản phẩm",
+      "totalQuantity": "Tổng số lượng tồn",
+      "totalValue": "Giá trị tồn kho",
+      "lowStock": "Sắp hết hàng",
+      "todayIn": "Nhập hôm nay",
+      "todayOut": "Xuất hôm nay"
+    },
+    "recentTx": "Giao dịch gần đây",
+    "noTx": "Chưa có giao dịch nào",
+    "lowStockTitle": "Cảnh báo tồn kho thấp",
+    "allGood": "Tất cả sản phẩm đều đủ tồn kho",
+    "viewAllProducts": "Xem tất cả sản phẩm",
+    "table": {
+      "time": "Thời gian",
+      "product": "Sản phẩm",
+      "type": "Loại",
+      "quantity": "Số lượng",
+      "stock": "Tồn"
+    }
+  },
+  "products": {
+    "title": "Sản phẩm",
+    "summary": "{{count}} sản phẩm · Giá trị {{value}}",
+    "addProduct": "+ Thêm sản phẩm",
+    "searchPlaceholder": "Tìm theo tên hoặc mã SKU...",
+    "allCategories": "Tất cả danh mục",
+    "lowStockOnly": "Chỉ hiện tồn kho thấp",
+    "loading": "Đang tải...",
+    "empty": "Không có sản phẩm nào",
+    "statusLow": "Sắp hết",
+    "statusOk": "Còn hàng",
+    "confirmDelete": "Xóa sản phẩm \"{{name}}\"? Toàn bộ lịch sử giao dịch liên quan cũng sẽ bị xóa.",
+    "table": {
+      "sku": "SKU",
+      "name": "Tên sản phẩm",
+      "category": "Danh mục",
+      "price": "Đơn giá",
+      "stock": "Tồn kho",
+      "status": "Trạng thái"
+    },
+    "modal": {
+      "editTitle": "Sửa sản phẩm",
+      "addTitle": "Thêm sản phẩm",
+      "sku": "Mã SKU",
+      "name": "Tên sản phẩm",
+      "category": "Danh mục",
+      "noCategory": "Không có",
+      "addCategory": "Thêm danh mục mới",
+      "newCategoryPlaceholder": "Tên danh mục",
+      "addCategoryBtn": "Thêm",
+      "unit": "Đơn vị tính",
+      "price": "Đơn giá (VNĐ)",
+      "quantityEdit": "Số lượng tồn",
+      "quantityNew": "Số lượng tồn ban đầu",
+      "lowStockThreshold": "Mức cảnh báo tồn kho thấp",
+      "note": "Ghi chú"
+    }
+  },
+  "transactions": {
+    "title": "Nhập / Xuất kho",
+    "subtitle": "Ghi nhận giao dịch và xem lịch sử",
+    "stockIn": "+ Nhập kho",
+    "stockOut": "+ Xuất kho",
+    "allTx": "Tất cả giao dịch",
+    "onlyIn": "Chỉ nhập kho",
+    "onlyOut": "Chỉ xuất kho",
+    "empty": "Chưa có giao dịch nào",
+    "confirm": "Xác nhận",
+    "table": {
+      "time": "Thời gian",
+      "product": "Sản phẩm",
+      "type": "Loại",
+      "quantity": "Số lượng",
+      "price": "Đơn giá",
+      "total": "Thành tiền",
+      "partner": "Đối tác",
+      "note": "Ghi chú"
+    },
+    "modal": {
+      "titleIn": "Nhập kho",
+      "titleOut": "Xuất kho",
+      "product": "Sản phẩm",
+      "type": "Loại giao dịch",
+      "quantity": "Số lượng",
+      "price": "Đơn giá (VNĐ)",
+      "partnerIn": "Nhà cung cấp",
+      "partnerOut": "Khách hàng",
+      "note": "Ghi chú"
+    }
+  },
+  "reports": {
+    "title": "Báo cáo",
+    "subtitle": "Thống kê nhập xuất và xuất file Excel",
+    "exportProducts": "⬇ Xuất tồn kho (Excel)",
+    "exportTx": "⬇ Xuất giao dịch (Excel)",
+    "chartTitle": "Nhập / Xuất 14 ngày gần đây",
+    "topProducts": "Top sản phẩm xuất nhiều nhất",
+    "noData": "Chưa có dữ liệu",
+    "totalOut": "Đã xuất",
+    "needsRestock": "Sản phẩm cần nhập thêm",
+    "allGood": "Tất cả sản phẩm đều đủ tồn kho",
+    "threshold": "Mức cảnh báo"
+  },
+  "errors": {
+    "CATEGORY_NAME_REQUIRED": "Tên danh mục không được để trống",
+    "CATEGORY_EXISTS": "Danh mục đã tồn tại",
+    "CATEGORY_NOT_FOUND": "Không tìm thấy danh mục",
+    "PRODUCT_NOT_FOUND": "Không tìm thấy sản phẩm",
+    "PRODUCT_REQUIRED_FIELDS": "Mã SKU và tên sản phẩm không được để trống",
+    "SKU_EXISTS": "Mã SKU đã tồn tại",
+    "PRODUCT_REQUIRED": "Vui lòng chọn sản phẩm",
+    "INVALID_TX_TYPE": "Loại giao dịch không hợp lệ",
+    "QTY_MUST_BE_POSITIVE": "Số lượng phải lớn hơn 0",
+    "INSUFFICIENT_STOCK": "Không đủ hàng tồn kho (còn {{available}} {{unit}})",
+    "TRANSACTION_ERROR": "Lỗi khi ghi nhận giao dịch",
+    "SERVER_ERROR": "Lỗi máy chủ, vui lòng thử lại",
+    "UNKNOWN": "Đã xảy ra lỗi, vui lòng thử lại"
+  }
+}

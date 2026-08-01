@@ -1,0 +1,46 @@
+{
+  "name": "quan-ly-ton-kho",
+  "version": "1.0.0",
+  "description": "Ung dung quan ly hang ton kho - desktop + LAN",
+  "main": "electron/main.js",
+  "scripts": {
+    "server": "node server/index.js",
+    "client:dev": "npm --prefix client run dev",
+    "client:build": "npm --prefix client run build",
+    "dev": "concurrently -k -n SERVER,CLIENT -c green,cyan \"npm:server\" \"npm:client:dev\"",
+    "electron": "electron .",
+    "electron:dev": "concurrently -k -n SERVER,ELECTRON -c green,magenta \"npm:server\" \"wait-on http://localhost:4000/api/health && electron .\"",
+    "build": "npm run client:build",
+    "dist": "npm run build && electron-builder"
+  },
+  "build": {
+    "appId": "com.huy.quanlytonkho",
+    "productName": "Quan Ly Ton Kho",
+    "files": [
+      "electron/**/*",
+      "server/**/*",
+      "client/dist/**/*",
+      "data/.gitkeep"
+    ],
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "exceljs": "^4.4.0",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "electron": "^43.2.0",
+    "electron-builder": "^24.13.3",
+    "wait-on": "^7.2.0"
+  },
+  "allowScripts": {
+    "electron@43.2.0": true
+  }
+}

@@ -1,0 +1,9 @@
+node_modules/
+client/dist/
+dist/
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+*.log
+.claude/settings.local.json

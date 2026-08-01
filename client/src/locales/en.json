@@ -1,0 +1,149 @@
+{
+  "app": { "title": "Inventory Manager" },
+  "nav": {
+    "dashboard": "Dashboard",
+    "products": "Products",
+    "transactions": "Stock In / Out",
+    "reports": "Reports"
+  },
+  "layout": {
+    "lanHint": "Other computers on the same LAN can access this app using this computer's IP address.",
+    "language": "Language"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "save": "Save",
+    "saving": "Saving...",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "loading": "Loading..."
+  },
+  "txType": {
+    "in": "In",
+    "out": "Out"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Inventory status and today's activity",
+    "loading": "Loading data...",
+    "stats": {
+      "products": "Products",
+      "totalQuantity": "Total stock quantity",
+      "totalValue": "Inventory value",
+      "lowStock": "Low stock",
+      "todayIn": "Stocked in today",
+      "todayOut": "Stocked out today"
+    },
+    "recentTx": "Recent transactions",
+    "noTx": "No transactions yet",
+    "lowStockTitle": "Low stock alerts",
+    "allGood": "All products have sufficient stock",
+    "viewAllProducts": "View all products",
+    "table": {
+      "time": "Time",
+      "product": "Product",
+      "type": "Type",
+      "quantity": "Quantity",
+      "stock": "Stock"
+    }
+  },
+  "products": {
+    "title": "Products",
+    "summary": "{{count}} products · Value {{value}}",
+    "addProduct": "+ Add product",
+    "searchPlaceholder": "Search by name or SKU...",
+    "allCategories": "All categories",
+    "lowStockOnly": "Low stock only",
+    "loading": "Loading...",
+    "empty": "No products found",
+    "statusLow": "Low stock",
+    "statusOk": "In stock",
+    "confirmDelete": "Delete product \"{{name}}\"? All related transaction history will also be deleted.",
+    "table": {
+      "sku": "SKU",
+      "name": "Product name",
+      "category": "Category",
+      "price": "Unit price",
+      "stock": "Stock",
+      "status": "Status"
+    },
+    "modal": {
+      "editTitle": "Edit product",
+      "addTitle": "Add product",
+      "sku": "SKU",
+      "name": "Product name",
+      "category": "Category",
+      "noCategory": "None",
+      "addCategory": "Add new category",
+      "newCategoryPlaceholder": "Category name",
+      "addCategoryBtn": "Add",
+      "unit": "Unit",
+      "price": "Unit price (VND)",
+      "quantityEdit": "Stock quantity",
+      "quantityNew": "Initial stock quantity",
+      "lowStockThreshold": "Low stock threshold",
+      "note": "Note"
+    }
+  },
+  "transactions": {
+    "title": "Stock In / Out",
+    "subtitle": "Record transactions and view history",
+    "stockIn": "+ Stock in",
+    "stockOut": "+ Stock out",
+    "allTx": "All transactions",
+    "onlyIn": "Stock in only",
+    "onlyOut": "Stock out only",
+    "empty": "No transactions yet",
+    "confirm": "Confirm",
+    "table": {
+      "time": "Time",
+      "product": "Product",
+      "type": "Type",
+      "quantity": "Quantity",
+      "price": "Unit price",
+      "total": "Total",
+      "partner": "Partner",
+      "note": "Note"
+    },
+    "modal": {
+      "titleIn": "Stock in",
+      "titleOut": "Stock out",
+      "product": "Product",
+      "type": "Transaction type",
+      "quantity": "Quantity",
+      "price": "Unit price (VND)",
+      "partnerIn": "Supplier",
+      "partnerOut": "Customer",
+      "note": "Note"
+    }
+  },
+  "reports": {
+    "title": "Reports",
+    "subtitle": "Stock in/out statistics and Excel export",
+    "exportProducts": "⬇ Export inventory (Excel)",
+    "exportTx": "⬇ Export transactions (Excel)",
+    "chartTitle": "Stock in/out over the last 14 days",
+    "topProducts": "Top selling products",
+    "noData": "No data yet",
+    "totalOut": "Total sold",
+    "needsRestock": "Products that need restocking",
+    "allGood": "All products have sufficient stock",
+    "threshold": "Alert threshold"
+  },
+  "errors": {
+    "CATEGORY_NAME_REQUIRED": "Category name cannot be empty",
+    "CATEGORY_EXISTS": "Category already exists",
+    "CATEGORY_NOT_FOUND": "Category not found",
+    "PRODUCT_NOT_FOUND": "Product not found",
+    "PRODUCT_REQUIRED_FIELDS": "SKU and product name cannot be empty",
+    "SKU_EXISTS": "SKU already exists",
+    "PRODUCT_REQUIRED": "Please select a product",
+    "INVALID_TX_TYPE": "Invalid transaction type",
+    "QTY_MUST_BE_POSITIVE": "Quantity must be greater than 0",
+    "INSUFFICIENT_STOCK": "Not enough stock (only {{available}} {{unit}} left)",
+    "TRANSACTION_ERROR": "Error recording transaction",
+    "SERVER_ERROR": "Server error, please try again",
+    "UNKNOWN": "Something went wrong, please try again"
+  }
+}
