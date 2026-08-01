@@ -1,6 +1,7 @@
 # Quản Lý Tồn Kho
 
 Ứng dụng quản lý hàng tồn kho dạng desktop, hỗ trợ nhiều người dùng truy cập cùng lúc qua mạng LAN. Hỗ trợ 3 ngôn ngữ: Tiếng Việt, English, 한국어.
+<img width="1342" height="849" alt="image" src="https://github.com/user-attachments/assets/ab9f0f90-e9f4-4aad-af4b-8e02ef378e99" />
 
 ## Tính năng
 
