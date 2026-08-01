@@ -9,6 +9,10 @@
 - Nhập/xuất kho, lịch sử giao dịch
 - Cảnh báo tồn kho thấp
 - Dashboard tổng quan, báo cáo thống kê, xuất Excel
+- <img width="1342" height="822" alt="image" src="https://github.com/user-attachments/assets/c960bd1e-c322-4ca2-8a99-ecb868ff46bf" />
+<img width="1345" height="821" alt="image" src="https://github.com/user-attachments/assets/b389297e-f193-409e-abf3-1ae1e7185139" />
+<img width="1343" height="819" alt="image" src="https://github.com/user-attachments/assets/0eab7c8b-457b-445e-9aa2-ab4f098a6368" />
+
 - Chọn ngôn ngữ: Tiếng Việt / English / 한국어
 - Chạy như app desktop (Electron), máy khác trong LAN truy cập qua trình duyệt
 
